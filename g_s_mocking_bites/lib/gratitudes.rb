@@ -3,9 +3,9 @@ class Gratitudes
     @gratitudes = []
   end
 
-  def add(gratitude)
+def add(gratitude)
     @gratitudes.push(gratitude)
-  end
+end
 
   def format
     formatted = "Be grateful for: "
@@ -13,3 +13,6 @@ class Gratitudes
     return formatted
   end
 end
+
+# gratitudes = Gratitudes.new
+# p gratitudes.add("sure")
